@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		08BB3959EDB62E61512140C9 /* Pods_GitIgnorePractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157A56D3AB674941BCDDE592 /* Pods_GitIgnorePractice.framework */; };
+		D448D82C2B3ED08B000091BA /* ApiCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448D82B2B3ED08B000091BA /* ApiCodes.swift */; };
 		D44BF8712B3E61AA006A39B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BF8702B3E61AA006A39B7 /* AppDelegate.swift */; };
 		D44BF8732B3E61AA006A39B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BF8722B3E61AA006A39B7 /* SceneDelegate.swift */; };
 		D44BF8752B3E61AA006A39B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BF8742B3E61AA006A39B7 /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 		890EDD93B325EB0133406783 /* Pods-GitIgnorePractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitIgnorePractice.debug.xcconfig"; path = "Target Support Files/Pods-GitIgnorePractice/Pods-GitIgnorePractice.debug.xcconfig"; sourceTree = "<group>"; };
 		8DB7BE4F11C2E6C4CE44E07A /* Pods-GitIgnorePractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitIgnorePractice.release.xcconfig"; path = "Target Support Files/Pods-GitIgnorePractice/Pods-GitIgnorePractice.release.xcconfig"; sourceTree = "<group>"; };
 		A1C5E523A20173D9EB0E78BD /* Pods_GitIgnorePractice_GitIgnorePracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitIgnorePractice_GitIgnorePracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D448D82B2B3ED08B000091BA /* ApiCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCodes.swift; sourceTree = "<group>"; };
 		D44BF86D2B3E61AA006A39B7 /* GitIgnorePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitIgnorePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44BF8702B3E61AA006A39B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D44BF8722B3E61AA006A39B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				D44BF8792B3E61AD006A39B7 /* Assets.xcassets */,
 				D44BF87B2B3E61AD006A39B7 /* LaunchScreen.storyboard */,
 				D44BF87E2B3E61AD006A39B7 /* Info.plist */,
+				D448D82B2B3ED08B000091BA /* ApiCodes.swift */,
 			);
 			path = GitIgnorePractice;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D44BF8752B3E61AA006A39B7 /* ViewController.swift in Sources */,
+				D448D82C2B3ED08B000091BA /* ApiCodes.swift in Sources */,
 				D44BF8712B3E61AA006A39B7 /* AppDelegate.swift in Sources */,
 				D44BF8732B3E61AA006A39B7 /* SceneDelegate.swift in Sources */,
 			);
