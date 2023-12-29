@@ -12,6 +12,7 @@
 !default.perspectivev3
 xcuserdata
 profile
+Constants
 *.moved-aside
 DerivedData
 .idea/
