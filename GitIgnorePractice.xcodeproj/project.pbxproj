@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D438D8E22B3E6FAC00462013 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D438D8E12B3E6FAC00462013 /* .gitignore */; };
 		D44BF8712B3E61AA006A39B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BF8702B3E61AA006A39B7 /* AppDelegate.swift */; };
 		D44BF8732B3E61AA006A39B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BF8722B3E61AA006A39B7 /* SceneDelegate.swift */; };
 		D44BF8752B3E61AA006A39B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BF8742B3E61AA006A39B7 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D438D8E12B3E6FAC00462013 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D44BF86D2B3E61AA006A39B7 /* GitIgnorePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitIgnorePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44BF8702B3E61AA006A39B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D44BF8722B3E61AA006A39B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D438D8E02B3E6F8200462013 /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				D438D8E12B3E6FAC00462013 /* .gitignore */,
+			);
+			path = Git;
+			sourceTree = "<group>";
+		};
 		D44BF8642B3E61AA006A39B7 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		D44BF86F2B3E61AA006A39B7 /* GitIgnorePractice */ = {
 			isa = PBXGroup;
 			children = (
+				D438D8E02B3E6F8200462013 /* Git */,
 				D44BF8702B3E61AA006A39B7 /* AppDelegate.swift */,
 				D44BF8722B3E61AA006A39B7 /* SceneDelegate.swift */,
 				D44BF8742B3E61AA006A39B7 /* ViewController.swift */,
@@ -231,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D438D8E22B3E6FAC00462013 /* .gitignore in Resources */,
 				D44BF87D2B3E61AD006A39B7 /* LaunchScreen.storyboard in Resources */,
 				D44BF87A2B3E61AD006A39B7 /* Assets.xcassets in Resources */,
 				D44BF8782B3E61AA006A39B7 /* Main.storyboard in Resources */,
