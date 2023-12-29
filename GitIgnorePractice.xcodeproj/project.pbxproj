@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D438D8E22B3E6FAC00462013 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D438D8E12B3E6FAC00462013 /* .gitignore */; };
+		D438D8E42B3E708C00462013 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438D8E32B3E708C00462013 /* Constants.swift */; };
 		D44BF8712B3E61AA006A39B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BF8702B3E61AA006A39B7 /* AppDelegate.swift */; };
 		D44BF8732B3E61AA006A39B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BF8722B3E61AA006A39B7 /* SceneDelegate.swift */; };
 		D44BF8752B3E61AA006A39B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BF8742B3E61AA006A39B7 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		D438D8E12B3E6FAC00462013 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D438D8E32B3E708C00462013 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D44BF86D2B3E61AA006A39B7 /* GitIgnorePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitIgnorePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44BF8702B3E61AA006A39B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D44BF8722B3E61AA006A39B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				D44BF8792B3E61AD006A39B7 /* Assets.xcassets */,
 				D44BF87B2B3E61AD006A39B7 /* LaunchScreen.storyboard */,
 				D44BF87E2B3E61AD006A39B7 /* Info.plist */,
+				D438D8E32B3E708C00462013 /* Constants.swift */,
 			);
 			path = GitIgnorePractice;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				D44BF8752B3E61AA006A39B7 /* ViewController.swift in Sources */,
 				D44BF8712B3E61AA006A39B7 /* AppDelegate.swift in Sources */,
 				D44BF8732B3E61AA006A39B7 /* SceneDelegate.swift in Sources */,
+				D438D8E42B3E708C00462013 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
