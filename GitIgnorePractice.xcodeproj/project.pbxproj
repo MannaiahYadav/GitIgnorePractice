@@ -105,7 +105,6 @@
 				E0D4E840408091F9B6A2ED1F /* Pods-GitIgnorePracticeTests.debug.xcconfig */,
 				21B177EB12E69322A73DF248 /* Pods-GitIgnorePracticeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -117,13 +116,6 @@
 				F34E4732B00B89FA1F310E35 /* Pods_GitIgnorePracticeTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D438D8E02B3E6F8200462013 /* Git */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Git;
 			sourceTree = "<group>";
 		};
 		D44BF8642B3E61AA006A39B7 = {
@@ -151,7 +143,6 @@
 		D44BF86F2B3E61AA006A39B7 /* GitIgnorePractice */ = {
 			isa = PBXGroup;
 			children = (
-				D438D8E02B3E6F8200462013 /* Git */,
 				D44BF8702B3E61AA006A39B7 /* AppDelegate.swift */,
 				D44BF8722B3E61AA006A39B7 /* SceneDelegate.swift */,
 				D44BF8742B3E61AA006A39B7 /* ViewController.swift */,
