@@ -12,7 +12,8 @@
 !default.perspectivev3
 xcuserdata
 profile
-Constants
+*.Constants
+*.NetWorkConstants.swift
 *.moved-aside
 DerivedData
 .idea/
