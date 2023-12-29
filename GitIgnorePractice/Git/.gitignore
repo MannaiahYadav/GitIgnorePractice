@@ -12,8 +12,7 @@
 !default.perspectivev3
 xcuserdata
 profile
-*.Constants
-*.NetWorkConstants.swift
+.Constants
 *.moved-aside
 DerivedData
 .idea/
@@ -24,3 +23,8 @@ DerivedData
 
 #CocoaPods
 Pods
+
+
+####
+# AppCode
+.NetWorkConstants.swift
