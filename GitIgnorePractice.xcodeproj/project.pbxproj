@@ -118,6 +118,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D438D8E82B3E7D7300462013 /* nasaAPI */ = {
+			isa = PBXGroup;
+			children = (
+				D438D8E32B3E708C00462013 /* Constants.swift */,
+			);
+			path = nasaAPI;
+			sourceTree = "<group>";
+		};
 		D44BF8642B3E61AA006A39B7 = {
 			isa = PBXGroup;
 			children = (
@@ -150,7 +158,7 @@
 				D44BF8792B3E61AD006A39B7 /* Assets.xcassets */,
 				D44BF87B2B3E61AD006A39B7 /* LaunchScreen.storyboard */,
 				D44BF87E2B3E61AD006A39B7 /* Info.plist */,
-				D438D8E32B3E708C00462013 /* Constants.swift */,
+				D438D8E82B3E7D7300462013 /* nasaAPI */,
 				D438D8E52B3E716500462013 /* NetWorkConstants.swift */,
 			);
 			path = GitIgnorePractice;
