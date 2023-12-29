@@ -15,6 +15,7 @@ class ViewController: UIViewController {
      print("removedaFaile--")
         print("removedaFaile--")
         print("ignored--")
+        print("name-->",GitIgnoreConstants.name)
      
     }
 
