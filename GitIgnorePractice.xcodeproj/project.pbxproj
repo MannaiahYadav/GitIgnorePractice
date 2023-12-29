@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		08BB3959EDB62E61512140C9 /* Pods_GitIgnorePractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157A56D3AB674941BCDDE592 /* Pods_GitIgnorePractice.framework */; };
-		D438D8E42B3E708C00462013 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438D8E32B3E708C00462013 /* Constants.swift */; };
-		D438D8E62B3E716500462013 /* NetWorkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438D8E52B3E716500462013 /* NetWorkConstants.swift */; };
-		D438D8EA2B3E811500462013 /* GitIgnoreConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438D8E92B3E811500462013 /* GitIgnoreConstants.swift */; };
-		D448D7E62B3E9533000091BA /* StaticKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448D7E52B3E9533000091BA /* StaticKeys.swift */; };
 		D44BF8712B3E61AA006A39B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BF8702B3E61AA006A39B7 /* AppDelegate.swift */; };
 		D44BF8732B3E61AA006A39B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BF8722B3E61AA006A39B7 /* SceneDelegate.swift */; };
 		D44BF8752B3E61AA006A39B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BF8742B3E61AA006A39B7 /* ViewController.swift */; };
@@ -50,10 +46,6 @@
 		890EDD93B325EB0133406783 /* Pods-GitIgnorePractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitIgnorePractice.debug.xcconfig"; path = "Target Support Files/Pods-GitIgnorePractice/Pods-GitIgnorePractice.debug.xcconfig"; sourceTree = "<group>"; };
 		8DB7BE4F11C2E6C4CE44E07A /* Pods-GitIgnorePractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitIgnorePractice.release.xcconfig"; path = "Target Support Files/Pods-GitIgnorePractice/Pods-GitIgnorePractice.release.xcconfig"; sourceTree = "<group>"; };
 		A1C5E523A20173D9EB0E78BD /* Pods_GitIgnorePractice_GitIgnorePracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitIgnorePractice_GitIgnorePracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D438D8E32B3E708C00462013 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		D438D8E52B3E716500462013 /* NetWorkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkConstants.swift; sourceTree = "<group>"; };
-		D438D8E92B3E811500462013 /* GitIgnoreConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitIgnoreConstants.swift; sourceTree = "<group>"; };
-		D448D7E52B3E9533000091BA /* StaticKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticKeys.swift; sourceTree = "<group>"; };
 		D44BF86D2B3E61AA006A39B7 /* GitIgnorePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitIgnorePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44BF8702B3E61AA006A39B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D44BF8722B3E61AA006A39B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,23 +114,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D438D8E82B3E7D7300462013 /* nasaAPI */ = {
-			isa = PBXGroup;
-			children = (
-				D438D8E32B3E708C00462013 /* Constants.swift */,
-				D438D8E92B3E811500462013 /* GitIgnoreConstants.swift */,
-			);
-			path = nasaAPI;
-			sourceTree = "<group>";
-		};
-		D448D7E72B3E99A8000091BA /* StaticKeys */ = {
-			isa = PBXGroup;
-			children = (
-				D448D7E52B3E9533000091BA /* StaticKeys.swift */,
-			);
-			path = StaticKeys;
-			sourceTree = "<group>";
-		};
 		D44BF8642B3E61AA006A39B7 = {
 			isa = PBXGroup;
 			children = (
@@ -171,9 +146,6 @@
 				D44BF8792B3E61AD006A39B7 /* Assets.xcassets */,
 				D44BF87B2B3E61AD006A39B7 /* LaunchScreen.storyboard */,
 				D44BF87E2B3E61AD006A39B7 /* Info.plist */,
-				D438D8E82B3E7D7300462013 /* nasaAPI */,
-				D438D8E52B3E716500462013 /* NetWorkConstants.swift */,
-				D448D7E72B3E99A8000091BA /* StaticKeys */,
 			);
 			path = GitIgnorePractice;
 			sourceTree = "<group>";
@@ -434,13 +406,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D448D7E62B3E9533000091BA /* StaticKeys.swift in Sources */,
-				D438D8EA2B3E811500462013 /* GitIgnoreConstants.swift in Sources */,
 				D44BF8752B3E61AA006A39B7 /* ViewController.swift in Sources */,
 				D44BF8712B3E61AA006A39B7 /* AppDelegate.swift in Sources */,
-				D438D8E62B3E716500462013 /* NetWorkConstants.swift in Sources */,
 				D44BF8732B3E61AA006A39B7 /* SceneDelegate.swift in Sources */,
-				D438D8E42B3E708C00462013 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
