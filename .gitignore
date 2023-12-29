@@ -8,7 +8,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -116,19 +117,9 @@ fastlane/test_output
 # After new code Injection tools there's a generated folder /iOSInjectionProject
 # https://github.com/johnno1962/injectionforxcode
 
-# GitIgnorePractice/GitIgnorePractice/nasaAPI/GitIgnoreConstants.swift
-
-# GitIgnorePractice/GitIgnorePractice/nasaAPI/
-
-# GitIgnorePractice/GitIgnorePractice/StaticKeys/
 
 
-
-GitIgnorePractice/GitIgnorePractice/NetWorkConstants.swift
-
-
- **/StaticKeys.swift
-
+./GitIgnorePractice/AppDelegate.swift 
 
 iOSInjectionProject/
 
