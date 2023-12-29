@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
      print("removedaFaile--")
         print("New")
+        print("New")
     }
 
 
